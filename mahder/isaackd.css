@@ -1,0 +1,21 @@
+.main-header{
+  font-size: 80px;
+  font-weight: 400;
+  color: #73eb87;
+  margin-top:0;
+  width: 80%;
+  position: fixed;
+  top: 0;
+  text-align:right;
+  z-index: 1;
+  line-height: 2em;
+  
+}
+body {
+   background-image:url("img/aru1.jpg");   
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-attachment: fixed;
+   display: block;
+   margin: 0 auto 0 auto;
+  }

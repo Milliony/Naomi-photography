@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Naomi Photography</title>
+  </head>
+  <body>
+      <h1>hellow this is million</h1>
+      <script>
+          var cart=[];
+          var item = {name:"apple", cost:1.99, count:5};
+          cart.push(item);
+          console.log(cart);
+          console.log(cart[0]);
+       
+          console.log(cart[0].name);
+          console.log(cart[0].cost);
+          console.log(cart[0].count);
+          function removeItem(name){
+            for (var i in cart){
+              if(cart[i].name===name){
+                cart[i].count--;
+                
+              }
+            }
+            console.log(cart[0]);
+       
+      </script>
+  </body>
+  </html>
